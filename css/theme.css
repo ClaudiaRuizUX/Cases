@@ -450,7 +450,7 @@ body {
   margin: 1.2em 0;
 }
 .project h5 {
-  width: 15em;
+  width: 18em;
   font-size:2.4em;
   line-height:1.2em;
   color: #539CFE;
@@ -467,6 +467,7 @@ body {
   border-bottom: 1px solid #D8D8D8;
   margin-top:0em;
   padding-top:1.5em;
+  min-height: 14em;
 }
 .projects-wrapper h6 {
   color: #539CFE;
@@ -478,18 +479,28 @@ body {
 .summary .col-sm-6 {
   min-height: 10em;
 }
-
+.outcome p {
+  margin-bottom: 0.4em;
+}
+.outcome p a {
+  background: url("../media/projects/link_icon.svg") no-repeat right 8px bottom 20px;;
+  color: #539CFE;
+  line-height: 2.3em;
+  padding: 0.8em 1.5em 0.8em 0.7em;
+  margin-left: -0.7em;
+}
 p.learnMore {
   margin:11em 0 0 6em;
   text-align: right;
   line-height: 2.5em;
 }
 .learnMore a {
-  background: url("../media/projects/plus_icon.svg") no-repeat right 0px bottom 21px;
+  background: url("../media/projects/plus_icon.svg") no-repeat right 8px bottom 17px;
   margin-right: -2em;
-  padding: 1em 1.2em 1em 1em;
+  padding: 0.8em 1.5em 0.8em 0.7em;
+  color: #539CFE;
 }
-.learnMore a:hover {
+.learnMore a:hover, .outcome p a:hover {
   background-color:#C6EAFE
 }
 a[aria-expanded="true"] {
@@ -662,16 +673,12 @@ a[aria-expanded="true"] {
   padding-top: 1em;
 }
 .DetailsOpen ul {
-  /* margin-left:-14em; */
+  margin-left:-3%;
 }
 .DetailsOpen ul li {
   list-style: none;
-  margin-left:10%;
   margin-top:5.5em;
   position: relative;
-}
-.DetailsOpen ul li div {
-  margin-left:3%;
 }
 .project li p.work-framework {
   margin: 0.5em 0;
@@ -693,9 +700,12 @@ a[aria-expanded="true"] {
   font-size: 1.7em;
   margin-top: 3.5em;
 }
+.DetailsOpen p {
+  margin-top:0.7em;
+}
 .DetailsOpen p.steps {
   font-weight: 300;
-  color:#539CFE;
+  color:#B1D2FE;
   position: absolute;
   top:0;
   left:-1.5em;
