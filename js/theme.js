@@ -26,13 +26,13 @@ $(document).ready(function () {
 
 
     //fixed header
-    function fixedHeader(wSc) {
-        if(wSc > 10){
-            $('.header').addClass('active');
-        }else{
-            $('.header').removeClass('active');
-        }
-    }
+    // function fixedHeader(wSc) {
+    //     if(wSc > 10){
+    //         $('.header').addClass('active');
+    //     }else{
+    //         $('.header').removeClass('active');
+    //     }
+    // }
 
 
     //fixed sidebar
