@@ -71,6 +71,12 @@
         margin-top: 2em;
 
     }
+    p.learnMore a.award {
+        background-image: none;
+    }    
+    .about-me-info {
+        padding-left: 35%;
+    }
   }
 
 
