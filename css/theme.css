@@ -441,7 +441,12 @@ a.project {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
 }
-
+@media screen and (max-width: 480px) {
+  .project h5 {
+    width: 100%;
+    /* font-size:2em; */
+  }
+}
 
 /* summary */
 .projects-wrapper .summary div{

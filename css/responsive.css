@@ -14,9 +14,7 @@
 -------------------------------------------------------------------*/
 
 /* Media max-height */
-@media screen and (max-height: 670px) {
-  .first-screen-box .about-me-info {
-    display: none; } }
+
 
 @media screen and (max-height: 530px) {
   .first-screen-box .main-avatar {
@@ -133,11 +131,15 @@
 
 @media screen and (max-width: 767px) and (max-height: 380px) {
   .first-screen-box .about-me .opacity-box {
-    display: none; } }
+    display: none; }
+  }
 
-@media screen and (max-width: 480px) and (max-height: 570px) {
-  .first-screen-box .main-avatar {
-    display: none; } }
+
+@media screen and (max-width: 480px) {
+  .first-screen .intro div.about-title h2 {
+    font-size: 0.2em;
+  }
+}
 
 @media screen and (max-width: 480px) and (max-height: 450px) {
   .first-screen-box .about-me .opacity-box {
@@ -149,8 +151,6 @@
 
 @media screen and (max-width: 360px) and (max-height: 500px) {
   .first-screen-box .about-me .opacity-box {
-    display: none; } }
+    display: none; } 
+}
 
-/* Media max-width */
-
-/*# sourceMappingURL=maps/responsive.css.map */
