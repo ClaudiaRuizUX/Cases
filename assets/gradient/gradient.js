@@ -1,12 +1,12 @@
 function drawGradient() {
 
     var colors = new Array(
-        [83, 156, 254],
-        [83, 156, 254],
-        [83, 156, 254],
-        [83, 156, 254],
-        [83, 156, 254],
-        [83, 156, 254]);
+        [0,117,255],
+        [0,117,255],
+        [0,117,255],
+        [0,117,255],
+        [0,117,255],
+        [110,168,249]);
 
     var step = 0;
 //color table indices for:
@@ -17,7 +17,7 @@ function drawGradient() {
     var colorIndices = [0,1,2,3];
 
 //transition speed
-    var gradientSpeed = 0.004;
+    var gradientSpeed = 0.002;
 
     function updateGradient()
     {
@@ -42,7 +42,7 @@ function drawGradient() {
 
         $('.first-screen, .mob-menu-wrapper').css({
             background: "-webkit-gradient(linear, left top, right bottom, from("+color1+"), to("+color2+"))"}).css({
-            background: "-moz-linear-gradient(-45deg, "+color1+" 0%, "+color2+" 100%)"});
+            background: "-moz-linear-gradient(-15deg, "+color1+" 0%, "+color2+" 100%)"});
 
         step += gradientSpeed;
         if ( step >= 1 )
