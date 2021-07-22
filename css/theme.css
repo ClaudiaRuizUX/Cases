@@ -49,7 +49,7 @@ body {
   outline: none !important; }
 
 /* Loader */
-#page-preloader {
+#page-teloader {
   position: fixed;
   z-index: 100500;
   top: 0;
@@ -900,6 +900,17 @@ textarea.site-input:hover, textarea.site-input:focus {
 }
 .container-fluid.valuations-case-hero {
   background: url(../media/project-page/Valuations-Hero-ProdPage.jpg) top center no-repeat;
+}
+.container-fluid.superannuation-case-hero {
+  background: url(../media/project-page/Superannuation-Hero-ProdPage.jpg) top center no-repeat;
+}
+.container-fluid.AVM-case-hero {
+  background: url(../media/project-page/AVM-Hero-ProdPage.jpg) top center no-repeat;
+}
+.container-fluid.AGM-case-hero {
+  background: url(../media/project-page/AGM-Hero-ProdPage.jpg) top center no-repeat;
+}.container-fluid.visualizations-case-hero {
+  background: url(../media/project-page/Viz-Hero-ProdPage.jpg) top center no-repeat;
 }
 
 
