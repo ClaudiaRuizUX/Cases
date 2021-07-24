@@ -484,6 +484,9 @@ a.project:hover h5 {
   color:#7749F9;
   text-decoration: none;
 }
+#AGM a.project:hover h5, #realestate a.project:hover h5 {
+  color:#0083FF;
+}
 p.location {
   color:white;
   font-weight: bolder;
@@ -546,6 +549,7 @@ div.collapse {
 .project .project-img {
   margin-bottom: 15px;
 }
+
 .project .project-img:before {
   /* content: '';
   position: absolute;
@@ -587,19 +591,12 @@ p.padding-top {
 .project:hover .project-img.valuations img {
   filter:hue-rotate(-30deg); 
 }
-.project:hover .project-img.marketInsights img {
-  filter:hue-rotate(30deg); 
-}
 .project:hover .project-img.avmexplorer img {
   filter:hue-rotate(35deg); 
 }
-.project:hover .project-img.voting img {
-  filter:hue-rotate(-20deg); 
+.project:hover .project-img.voting img, .project:hover .project-img.marketInsights img {
+  filter:none; 
 }
-/* 
-.project:active .project-img:before {
-  opacity: 1; 
-} */
 .modal-content {
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -915,7 +912,8 @@ textarea.site-input:hover, textarea.site-input:focus {
 }
 .container-fluid.AGM-case-hero {
   background: url(../media/project-page/AGM-Hero-ProdPage.jpg) top center no-repeat;
-}.container-fluid.visualizations-case-hero {
+}
+.container-fluid.visualizations-case-hero {
   background: url(../media/project-page/Viz-Hero-ProdPage.jpg) top center no-repeat;
 }
 
