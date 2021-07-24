@@ -530,6 +530,9 @@ a.project:hover span.project-more{
   color:#7749F9;
   background: url(../media/project-more-arrow2.svg) right no-repeat;
 }
+a.project.comingSoon:hover {
+  cursor: default;
+}
 a.project.comingSoon span.project-more {
   color: #C4C4C4;
   background: none;
@@ -575,6 +578,9 @@ div.collapse {
   opacity: 0.8; 
 } */
 
+p.padding-top {
+  margin-top:1em;
+}
 .project:hover .project-img img {
   filter:hue-rotate(20deg); 
 }
