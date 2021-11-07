@@ -142,44 +142,11 @@ body {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); 
 }
-/* 
-.header.active .logo {
-  padding-left: 50px; 
-} */
-
-/* .header.active .header-avatar {
-  opacity: 1;
-  visibility: visible; } */
 
 .logo {
   position: relative;
   -webkit-transition: padding 0.3s ease;
   transition: padding 0.3s ease; }
-
-/* .header-avatar {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  overflow: hidden;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  margin: auto;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; } */
-
-/* .header-avatar img {
-  width: 100%;
-  height: 100%; } */
-
-/* .point:after {
-  content: '.'; 
-} */
 
 .header-links {
   display: inline-block;
@@ -293,6 +260,20 @@ body {
 
 
 /* Header */
+
+
+/* NFT */
+
+div.NFT {
+  margin-top: 3em;
+}
+div.NFT p {
+  line-height: 2;
+  margin-top:1rem;
+}
+
+
+
 /* First screen */
 .first-screen {
   height: 100vh;
